@@ -1,17 +1,15 @@
-package com.example.microservice.models;
+package com.example.microservice.DTO;
 
-import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class StudentGrade {
+public class StudentGradeDTO {
 
     private String studentName;
-    private int studentAge;
-    private double grade;
+    private int age;
+    private double qualification;
 }
